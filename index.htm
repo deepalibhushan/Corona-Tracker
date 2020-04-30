@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+
+    <title>Covid-19 Tracker</title>
+</head>
+<body>
+    <p id="demo"></p>
+        <div class="main">
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    <h1 id="myHeader">Corona Tracker</h1>
+
+    <div class="btn-wrapper">
+            <div class="fa_icon">
+                <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+            <div class="fa_icon">
+                <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+            <div class="fa_icon">
+                <a href="#">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+    <div class="lesson-wrapper">
+        <div id="myContent" class="table-responsive">
+            <table class="table">
+                <thead class="thead">
+                    <tr>
+                        <th scope="col">States</th>
+                        <th scope="col">Confirmed</th>
+                        <th scope="col">Recovered</th>
+                        <th scope="col">Deceased</th>
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+                    <tr>
+                    <th>Total</th>
+                    <th id="totalConfirmed"></th>
+                    <th id="totalRecovered"></th>
+                    <th id="totalDeaths"></th>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+            <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Let's Fight Corona Together!</h2>
+          <h3>Stay Safe Stay Home.</h3>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <footer class="footer">
+    </footer>
+
+</body>
+<script src="corona.js"></script>
+</html>

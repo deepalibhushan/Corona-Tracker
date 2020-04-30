@@ -1,0 +1,103 @@
+body {
+  font-family: "Baloo Thambi 2", cursive;
+}
+#myHeader{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://miro.medium.com/max/8256/1*5lpiSFo6j5dhrr6Z6RFd8Q.jpeg");
+    height:500px;
+    background-size:cover;;
+    color:white;
+    padding:80px;
+    text-align:left;
+    background-position: center;
+    font-size:105px;
+}
+ul{
+    list-style-type: none;
+    float:right;
+    margin-top: 25px;
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration:none;
+    color:white;
+    padding:5px 20px;
+    border:1px solid;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: beige;
+    color: brown;
+}
+ul li.active a{
+    background-color: beige;
+    color: brown;
+}
+.main{
+    max-width:1200px;
+    margin:auto;
+
+
+.lesson-wrapper{
+    top:50%;
+    left:50%;
+    background-color: chartreuse;
+}
+.fa {
+    margin-left:5px;
+}
+.btn-wrapper{
+    width:100px;
+    height:auto;
+    position:absolute;
+    right:0%;
+    top:50%;
+}
+.fa_icon{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border-color: white;
+    border-width: thick;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.fa_icon:nth-child(even){
+    margin:20px 0px;
+}
+.fa_icon:hover{
+    background-color: white;
+}
+#myContent .table.thead{
+        background-color: cadetblue;
+    }
+.footer{
+    background-image:url("https://www.apa.org/images/2020-04-nature_tcm7-271271.png");
+    height:1000px;
+    background-size:cover;;
+    color:white;
+    padding:80px;
+    text-align:center;
+    background-position: center;
+    font-size:45px;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
